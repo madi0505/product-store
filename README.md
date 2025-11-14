@@ -2,6 +2,9 @@
 A simple CRUD application using Bootstrap, html, spring boot, spring MVC. An electronics store.
 
 Befrore running project ensure that you have correctly configured the data to connect to the database
+
+-- create database beststore;
+
 -- create table
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
