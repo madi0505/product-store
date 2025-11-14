@@ -1,6 +1,13 @@
 HELP.md
-target/
+
+### Maven ###
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 .mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+
+### Build directories inside modules
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -14,7 +21,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -31,3 +38,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
+
+### Spring Boot sensitive configs ###
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+.env
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
